@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="5dp"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       android:layout_centerHorizontal="true"
+        android:id="@+id/layout_up">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_keyboard_arrow_up_24"
+            android:id="@+id/hrup"
+            android:layout_marginRight="15dp"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_keyboard_arrow_up_24"
+            android:id="@+id/minup"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_keyboard_arrow_up_24"
+            android:id="@+id/secup"
+            android:layout_marginLeft="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/layout_up"
+        android:id="@+id/layout_text">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:id="@+id/hhedit"
+            android:textColorHint="#FF8B0A"
+            android:textColor="#FF8B0A"
+            android:textSize="40sp"
+            android:layout_marginRight="19dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:id="@+id/mmedit"
+            android:textColorHint="#FF8B0A"
+            android:textColor="#FF8B0A"
+            android:textSize="40sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:id="@+id/ssedit"
+            android:textColorHint="#FF8B0A"
+            android:textColor="#FF8B0A"
+            android:textSize="40sp"
+            android:layout_marginLeft="19dp"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/layout_text"
+        android:id="@+id/layout_down">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_keyboard_arrow_down_24"
+            android:id="@+id/hrdown"
+            android:layout_marginRight="15dp"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_keyboard_arrow_down_24"
+            android:id="@+id/mindown"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_keyboard_arrow_down_24"
+            android:id="@+id/secdown"
+            android:layout_marginLeft="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_down"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp">
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:text="SUBMIT"
+            android:textColor="#FF8B0A"
+            android:textSize="30sp"
+            android:id="@+id/submitdialogue" />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
